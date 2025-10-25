@@ -5,10 +5,10 @@ dotenv.config();
 
 // 创建数据库连接池，增加超时设置和连接重试
 const pool = mysql.createPool({
-  host: '14.103.171.248',
+  host: '127.0.0.1',
   port: 3306,
-  user: 'swt',
-  password: 'm3AwwkeLkkh5xAkG',
+  user: '111',
+  password: '111',
   database: 'swt',
   waitForConnections: true,
   connectionLimit: 10,
